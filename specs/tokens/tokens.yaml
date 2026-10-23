@@ -1,0 +1,183 @@
+# ThemePilot Design Tokens (W3C DTCG Specification)
+# Project: ThemePilot (Project ID: 6483655198524984692)
+# Archetype: The Architectural Compiler (Dark Matte / Swiss Modernist)
+
+color:
+  # Scaffold & Structural Surfaces
+  scaffold:
+    obsidian:
+      $value: "#070E17"
+      $type: "color"
+      $description: "Deepest structural base for canvas backgrounds and viewport framing."
+  surface:
+    midnight:
+      $value: "#0D1D2E"
+      $type: "color"
+      $description: "Primary canvas surface background for main workbench zones."
+    slate:
+      $value: "#16283B"
+      $type: "color"
+      $description: "Secondary container surface for cards, preview panes, code editors."
+    containerHigh:
+      $value: "#1E354D"
+      $type: "color"
+      $description: "Elevated interactive tiles, active tabs, and focused inputs."
+    steelFacet:
+      $value: "#2A4E6C"
+      $type: "color"
+      $description: "Subdued geometric facets, subtle hairline dividers, bracket anchors."
+
+  # Accent & Brand Conduits
+  accent:
+    aeroBlue:
+      $value: "#38BDF8"
+      $type: "color"
+      $description: "Primary brand accent, glowing status conduits, focused borders."
+    irisViolet:
+      $value: "#818CF8"
+      $type: "color"
+      $description: "Secondary gradient transition partner representing transpilation progression."
+    successEmerald:
+      $value: "#10B981"
+      $type: "color"
+      $description: "Compilation success indicator and zero-drift pass badges."
+    emeraldContainer:
+      $value: "#062D1F"
+      $type: "color"
+      $description: "Subtle tinted backdrop for success badges."
+
+  # Typography & Content Tone
+  text:
+    primary:
+      $value: "#FFFFFF"
+      $type: "color"
+      $description: "Chalk white primary display typography and high-emphasis labels."
+    muted:
+      $value: "#94A3B8"
+      $type: "color"
+      $description: "Muted aero slate secondary body text, inactive tabs, captions."
+    onAccent:
+      $value: "#070E17"
+      $type: "color"
+      $description: "High-contrast dark obsidian text used on primary glowing CTA buttons."
+
+# Typography Hierarchy
+typography:
+  fontFamily:
+    display:
+      $value: "Space Grotesk, sans-serif"
+      $type: "fontFamily"
+    body:
+      $value: "Inter, sans-serif"
+      $type: "fontFamily"
+    code:
+      $value: "JetBrains Mono, monospace"
+      $type: "fontFamily"
+  fontSize:
+    caption:
+      $value: "12px"
+      $type: "dimension"
+    bodySm:
+      $value: "14px"
+      $type: "dimension"
+    bodyMd:
+      $value: "16px"
+      $type: "dimension"
+    headlineSm:
+      $value: "20px"
+      $type: "dimension"
+    headlineMd:
+      $value: "28px"
+      $type: "dimension"
+    headlineLg:
+      $value: "36px"
+      $type: "dimension"
+  fontWeight:
+    regular:
+      $value: 400
+      $type: "fontWeight"
+    medium:
+      $value: 500
+      $type: "fontWeight"
+    semiBold:
+      $value: 600
+      $type: "fontWeight"
+    bold:
+      $value: 700
+      $type: "fontWeight"
+
+# Spatial Rhythm (Strict 8dp Grid)
+spacing:
+  gridBase:
+    $value: "8px"
+    $type: "dimension"
+  none:
+    $value: "0px"
+    $type: "dimension"
+  xxs:
+    $value: "2px"
+    $type: "dimension"
+  xs:
+    $value: "4px"
+    $type: "dimension"
+  sm:
+    $value: "8px"
+    $type: "dimension"
+  compact:
+    $value: "12px"
+    $type: "dimension"
+  md:
+    $value: "16px"
+    $type: "dimension"
+  lg:
+    $value: "24px"
+    $type: "dimension"
+  xl:
+    $value: "32px"
+    $type: "dimension"
+  xxl:
+    $value: "48px"
+    $type: "dimension"
+  huge:
+    $value: "64px"
+    $type: "dimension"
+
+# Corner Radii
+borderRadius:
+  none:
+    $value: "0px"
+    $type: "dimension"
+  sm:
+    $value: "4px"
+    $type: "dimension"
+  md:
+    $value: "8px"
+    $type: "dimension"
+  card:
+    $value: "12px"
+    $type: "dimension"
+  container:
+    $value: "16px"
+    $type: "dimension"
+  pill:
+    $value: "9999px"
+    $type: "dimension"
+
+# Surface Elevation & Shadows
+shadow:
+  ambientCard:
+    $value:
+      color: "rgba(0, 0, 0, 0.45)"
+      offsetX: "0px"
+      offsetY: "8px"
+      blur: "32px"
+      spread: "0px"
+    $type: "shadow"
+  glowingAccent:
+    $value:
+      color: "rgba(56, 189, 248, 0.25)"
+      offsetX: "0px"
+      offsetY: "4px"
+      blur: "24px"
+      spread: "0px"
+    $type: "shadow"
